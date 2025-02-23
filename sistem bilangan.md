@@ -1,0 +1,7 @@
+LATIHAN SISTEM BILANGAN
+
+NAMA : Nauril Putri Hadining Tyas
+
+NRP : 3124521012
+
+KELAS : IT-A

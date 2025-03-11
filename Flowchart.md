@@ -6,6 +6,10 @@
 
 ## PENJELASAN PROSES BOOTING KOMPUTER
 
+
+![SO drawio](https://github.com/user-attachments/assets/aed444e1-e75d-4e25-8df8-649269bc84f6)
+
+
 1.  **Mulai:** Proses dimulai ketika tombol power pada komputer ditekan.
 2.  **Power Dihidupkan:** Sumber daya listrik mulai mengalir ke komponen komputer.
 3.  **POST (Power-On Self Test):**

@@ -6,7 +6,7 @@
 
 **NRP:** 3124521012
 
-Class: TI-A
+**Class: TI-A**
 ---
 
 ## Manajemen Proses (Process Management)

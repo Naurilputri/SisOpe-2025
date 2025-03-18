@@ -1,11 +1,12 @@
 # SISTEM OPERASI
 
-## RESUME 
+## RESUME Chapter1 Introduction 1.34-1.40
 
 **Nama:** Nauril Putri Hadining Tyas
 
-**Nrp:** 3124521012
+**NRP:** 3124521012
 
+Class: TI-A
 ---
 
 ## Manajemen Proses (Process Management)

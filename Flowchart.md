@@ -1,13 +1,16 @@
 # SISTEM OPERASI
 
 **NAURIL PUTRI HADINING TYAS**
+
 **3124521012**
+
 **KELAS IT-A**
 
-## PENJELASAN PROSES BOOTING KOMPUTER
+## FLOWCHART PROSES BOOTING KOMPUTER
 
 
-![SO drawio](https://github.com/user-attachments/assets/aed444e1-e75d-4e25-8df8-649269bc84f6)
+![flowbenar drawio](https://github.com/user-attachments/assets/e4ea9a1a-b9c7-4b4c-a5d2-b36853964145)
+
 
 
 1.  **Mulai:** Proses dimulai ketika tombol power pada komputer ditekan.

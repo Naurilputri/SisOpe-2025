@@ -1,12 +1,20 @@
-# SISTEM OPERASI
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+### Flowchart Booting Komputer
 
-**NAURIL PUTRI HADINING TYAS**
+Dosen Pengampu:
 
-**3124521012**
+**Dr. Ferry Astika Saputra ST, M.Sc**
 
-**KELAS IT-A**
+Disusun Oleh:
 
-## FLOWCHART PROSES BOOTING KOMPUTER
+**Nauril Putri Hadining Tyas (3124521012)**
+
+## PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN
+
+## POLITEKNIK ELEKTRONIKA NEGERI SURABAYA
+
+### FLOWCHART PROSES BOOTING KOMPUTER
 
 
 ![flowbenar drawio](https://github.com/user-attachments/assets/e4ea9a1a-b9c7-4b4c-a5d2-b36853964145)

@@ -1,29 +1,27 @@
-# LAPORAN RESMI SISTEM OPERASI
-# RESUME APPENDIX-A
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+### RESUME APPENDIX-A
 
+Dosen Pengampu:
 
-
-Dosen Pengampu : 
-Dr Ferry Astika Saputra ST, M.Sc
+**Dr. Ferry Astika Saputra ST, M.Sc**
 
 Disusun Oleh:
-Nauril Putri Hadining Tyas D3 TI A (3124521012)
 
-PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN
-DEPARTEMEN TEKNIK INFORMATIKA DAN KOMPUTER
-POLITEKNIK ELEKTRONIKA NEGERI SURABAYA
-2025
+**Nauril Putri Hadining Tyas (3124521012)**
 
-## Sistem Operasi yang Mempengaruhi - Lampiran
+## PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN
 
-### TUJUAN BAB
+## POLITEKNIK ELEKTRONIKA NEGERI SURABAYA
 
-*   Menjelaskan bagaimana fitur sistem operasi bermigrasi seiring waktu dari sistem komputer besar ke yang lebih kecil.
-*   Membahas fitur dari beberapa sistem operasi yang historis penting..
 
 ### A.1 Migrasi Fitur
 
-Fitur yang awalnya hanya tersedia pada sistem besar seperti mainframe, kini telah diadopsi oleh sistem yang lebih kecil, termasuk komputer mini, mikro, dan perangkat genggam. Sebagai contoh utama, sistem operasi MULTICS yang dikembangkan antara 1965 hingga 1970 di MIT untuk komputer mainframe GE-645, menjadi dasar bagi pengembangan UNIX oleh Bell Laboratories pada tahun 1970 untuk komputer mini PDP-11. Pada 1980-an, fitur dari UNIX diadopsi oleh sistem operasi untuk komputer mikro, termasuk Microsoft Windows, Windows XP, dan macOS. Linux, yang juga mengadopsi banyak fitur serupa, kini dapat ditemukan di berbagai perangkat, termasuk PDA.
+Fitur-fitur canggih yang awalnya hanya ada di mainframe kini banyak diadopsi di sistem yang lebih kecil.
+Konsep dasar sistem operasi berlaku universal di berbagai jenis komputer.
+Sistem operasi MULTICS (dikembangkan untuk mainframe GE-645) menjadi inspirasi bagi UNIX (untuk minikomputer PDP-11).
+Fitur-fitur UNIX kemudian diadopsi oleh sistem operasi mikrokomputer seperti Microsoft Windows, macOS, dan Linux.
+Linux yang mengadopsi fitur dari Unix, sekarang juga bisa di gunakan di PDA(Personal Digital Assistant).
 
 ### A.2 Sistem Awal
 

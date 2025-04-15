@@ -1,4 +1,6 @@
-SISTEM BILANGAN
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+**SISTEM BILANGAN**
 
 NAMA : Nauril Putri Hadining Tyas
 
@@ -6,7 +8,7 @@ NRP : 3124521012
 
 KELAS : 1 IT-A
 
-LATIHAN
+**LATIHAN**
 
 1. a. Bilangan biner adalah bilangan yang berbasis dua 
 

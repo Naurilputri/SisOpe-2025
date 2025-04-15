@@ -1,10 +1,13 @@
 # LAPORAN TUGAS
 ## MATAKULIAH SISTEM OPERASI
+## PRACTICE EXERCISES
 
 Dosen Pengampu:
+
 **Dr. Ferry Astika Saputra ST, M.Sc**
 
 Disusun Oleh:
+
 **Nauril Putri Hadining Tyas (3124521012)**
 
 ### PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN
@@ -12,7 +15,6 @@ Disusun Oleh:
 ### POLITEKNIK ELEKTRONIKA NEGERI SURABAYA
 
 
-## PRACTICE EXERCISES
 
 ## 1. What are the three main purposes of an operating system?
 

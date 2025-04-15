@@ -1,8 +1,16 @@
-# Operating System 
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+### Practice Exercises
+Dosen Pengampu:
+**Dr. Ferry Astika Saputra ST, M.Sc**
 
-# Nauril Putri Hadining Tyas  
-**NRP**: 3124521012  
-**Class**: 1 TI A  
+Disusun Oleh:
+**Nauril Putri Hadining Tyas (3124521012)**
+
+*PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN*
+
+*POLITEKNIK ELEKTRONIKA NEGERI SURABAYA* 
+
 
 ## PRACTICE EXERCISES
 

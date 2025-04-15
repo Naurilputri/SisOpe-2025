@@ -1,0 +1,17 @@
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+### FLOPS IOPS
+
+Dosen Pengampu:
+
+**Dr. Ferry Astika Saputra ST, M.Sc**
+
+Disusun Oleh:
+
+**Nauril Putri Hadining Tyas (3124521012)**
+
+**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
+
+**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
+
+

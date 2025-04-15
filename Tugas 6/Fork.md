@@ -1,7 +1,19 @@
-## Fork : Parent - Child Process ##  
-Nama : Nauril Putri Hadining Tyas  
-NRP : 3124521012  
-Kelas : 1 Teknik Informatika A    
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+### Fork : Parent - Child Process
+Dosen Pengampu:
+
+**Dr. Ferry Astika Saputra ST, M.Sc**
+
+Disusun Oleh:
+
+**Nauril Putri Hadining Tyas (3124521012)**
+
+**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
+
+**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
+
+    
 
   fork() adalah sebuah system call atau fungsi khusus yang digunakan dalam sistem operasi mirip Unix (seperti Linux dan macOS) untuk membuat proses baru. Proses yang membuat proses baru ini disebut proses induk (parent process), dan proses yang baru dibuat disebut proses anak (child process). Proses anak ini pada dasarnya adalah salinan dari proses induk, dengan ruang alamat dan status eksekusi yang hampir identik.
 

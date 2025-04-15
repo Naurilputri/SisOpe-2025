@@ -10,13 +10,16 @@ Disusun Oleh:
 
 **Nauril Putri Hadining Tyas (3124521012)**
 
-### PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN
 
-### POLITEKNIK ELEKTRONIKA NEGERI SURABAYA
+## PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN
+
+## POLITEKNIK ELEKTRONIKA NEGERI SURABAYA
 
 
 
-## 1. What are the three main purposes of an operating system?
+
+
+### 1. What are the three main purposes of an operating system?
 
 The three main purposes of an operating system are:
 

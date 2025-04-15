@@ -1,12 +1,20 @@
-# SISTEM OPERASI
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+### RESUME Chapter1 Introduction
 
-## RESUME Chapter1 Introduction 1.34-1.40
+Dosen Pengampu:
 
-**Nama:** Nauril Putri Hadining Tyas
+**Dr. Ferry Astika Saputra ST, M.Sc**
 
-**NRP:** 3124521012
+Disusun Oleh:
 
----
+**Nauril Putri Hadining Tyas (3124521012)**
+
+## PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN
+
+## POLITEKNIK ELEKTRONIKA NEGERI SURABAYA
+
+**1.34 Proses Management - 1.40 caching**
 
 ## Manajemen Proses (Process Management)
 

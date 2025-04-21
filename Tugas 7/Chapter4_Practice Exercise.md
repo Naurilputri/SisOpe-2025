@@ -219,11 +219,8 @@ b. Jumlah thread unik yang dibuat:* Kode ini membuat *satu* thread unik di setia
 
 ## 4.19 Program yang ditunjukkan pada Gambar 4.23 menggunakan Pthreads. Apa yang akan menjadi output dari program tersebut?
 
-**Jawaban:**  
-CHILD: value = 0
-PARENT: value = 5
-``` :contentReference[oaicite:0]{index=0}
-::contentReference[oaicite:1]{index=1}
+**Jawaban:** 
+
 
 ---
 

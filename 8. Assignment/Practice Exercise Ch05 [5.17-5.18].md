@@ -1,3 +1,19 @@
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+### Fork : Parent - Child Process
+Dosen Pengampu:
+
+**Dr. Ferry Astika Saputra ST, M.Sc**
+
+Disusun Oleh:
+
+**Nauril Putri Hadining Tyas (3124521012)**
+
+**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
+
+**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
+
+
 ## Soal 5.17 - Analisis Penjadwalan CPU
 
 Diberikan kumpulan proses berikut dengan panjang CPU burst dalam milidetik:

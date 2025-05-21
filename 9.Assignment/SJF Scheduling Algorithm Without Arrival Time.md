@@ -1,4 +1,19 @@
-# 🔍 Analisis Logika Kode - SJF (Tanpa Arrival Time) Non-Preemptive
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+### Scheduling Algorithm
+Dosen Pengampu:
+
+**Dr. Ferry Astika Saputra ST, M.Sc**
+
+Disusun Oleh:
+
+**Nauril Putri Hadining Tyas (3124521012)**
+
+**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
+
+**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
+
+# Analisis Logika Kode - SJF (Tanpa Arrival Time) Non-Preemptive
 
 Kode ini mengimplementasikan algoritma **Shortest Job First (SJF)** _Non-Preemptive_ **tanpa mempertimbangkan Arrival Time**, sehingga diasumsikan semua proses datang bersamaan di waktu 0.
 
@@ -85,14 +100,9 @@ Misalkan input:
 
 ---
 
-## ✅ Kesimpulan
+## 📊 Rata-Rata
 
-- Kode mengimplementasikan SJF Non-Preemptive dengan asumsi semua proses datang pada waktu 0.
-- Algoritma bekerja optimal untuk skenario sederhana tanpa arrival time.
+- **Average Turnaround Time (TAT)** = Total TAT / n
+- **Average Waiting Time (WT)** = Total WT / n
 
 ---
-
-## 🛠️ Saran Peningkatan
-- Tambahkan validasi input.
-- Tambahkan visualisasi Gantt Chart langsung dalam program.
-- Pisahkan logika sorting dan perhitungan agar modular.

@@ -1,4 +1,19 @@
-# 🧠 Analisis Logika Kode - SJF Scheduling (Non-Preemptive)
+# LAPORAN TUGAS
+## MATAKULIAH SISTEM OPERASI
+### Scheduling Algorithm
+Dosen Pengampu:
+
+**Dr. Ferry Astika Saputra ST, M.Sc**
+
+Disusun Oleh:
+
+**Nauril Putri Hadining Tyas (3124521012)**
+
+**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
+
+**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
+
+# 🧠 Analisis Logika Code - SJF Scheduling (Non-Preemptive)
 
 Kode ini mengimplementasikan algoritma **Shortest Job First (SJF) Non-Preemptive**, di mana proses dengan burst time terkecil dipilih berikutnya dari proses yang sudah tiba.
 
@@ -94,9 +109,4 @@ p[i].wt = p[i].tat - p[i].bt;
 - **Average Waiting Time**: `(0 + 5 + 7 + 10)/4 = 5.5`
 
 ---
-
-## ✅ Kesimpulan
-- Proses dengan burst time terkecil dari yang sudah datang akan dipilih.
-- Tidak ada preemption, proses berjalan sampai selesai.
-- Algoritma ini cocok untuk sistem di mana waktu eksekusi proses diketahui dan tidak sering berubah.
 

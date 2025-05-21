@@ -99,11 +99,8 @@ if(p[i].at <= time && p[i].rt < p[s].rt && p[i].rt > 0)
 | P3     | 4                 | 1               | 5                     | 1                      | 0                  |
 
 ## 📈 Rata-Rata:
-- **Average Turnaround Time:** 8.00
-- **Average Waiting Time:** 4.00
+- **Average Turnaround Time:**  = (16 + 7 + 1) / 3 = **8.00**
+- **Average Waiting Time:** = (9 + 3 + 0) / 3 = **4.00**
 
-## 📌 Catatan:
-- Proses dijalankan berdasarkan waktu sisa burst time terpendek (*Shortest Remaining Time First*).
-- Proses dapat mengalami preemption jika ada proses baru dengan burst time lebih kecil.
----
+
 

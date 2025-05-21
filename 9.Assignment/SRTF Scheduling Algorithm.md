@@ -82,28 +82,28 @@ if(p[i].at <= time && p[i].rt < p[s].rt && p[i].rt > 0)
   - `avg_wt = total_wt / n`
 
 ---
+# ⏱️ Gantt Chart - SRTF Scheduling
 
-## ⚠️ Catatan Potensial
+## Gantt Chart:
+```yaml
+| P1 | P2 | P3 | P2 | P1 |
+0    2    4    5    9   16
+```
 
-- **Hardcoded Sentinel**:
-  - `p[9].rt = MAX` digunakan sebagai proses dummy.
-  - Akan error jika jumlah proses lebih dari 9.
+## 📊 Proses Eksekusi:
 
-- **Idle Time Tidak Dicetak**:
-  - Jika tidak ada proses yang bisa dijalankan, waktu tetap berjalan tanpa log.
+| Proses | Arrival Time (AT) | Burst Time (BT) | Completion Time (CT) | Turnaround Time (TAT) | Waiting Time (WT) |
+|--------|-------------------|-----------------|-----------------------|------------------------|--------------------|
+| P1     | 0                 | 7               | 16                    | 16                     | 9                  |
+| P2     | 2                 | 4               | 9                     | 7                      | 3                  |
+| P3     | 4                 | 1               | 5                     | 1                      | 0                  |
 
-- **Tidak Ada Gantt Chart**:
-  - Versi asli tidak mencetak urutan proses per waktu.
+## 📈 Rata-Rata:
+- **Average Turnaround Time:** 8.00
+- **Average Waiting Time:** 4.00
 
+## 📌 Catatan:
+- Proses dijalankan berdasarkan waktu sisa burst time terpendek (*Shortest Remaining Time First*).
+- Proses dapat mengalami preemption jika ada proses baru dengan burst time lebih kecil.
 ---
 
-## 💡 Saran Peningkatan
-- Tambahkan Gantt Chart untuk visualisasi.
-- Gunakan struktur data seperti min-heap atau priority queue untuk efisiensi.
-- Validasi agar `n <= 9` atau alokasi dinamis array.
-- Tampilkan log preemption untuk debugging dan pemahaman.
-
----
-
-## ✅ Kesimpulan
-Kode ini menjalankan algoritma SRTF secara fungsional dan benar, namun memiliki keterbatasan dari sisi efisiensi, skalabilitas, dan visualisasi. Cocok untuk pembelajaran, namun perlu dioptimasi untuk skenario riil.

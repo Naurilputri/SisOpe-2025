@@ -1,6 +1,6 @@
 # LAPORAN TUGAS
 ## MATAKULIAH SISTEM OPERASI
-### Fork : Parent - Child Process
+### Scheduling Algorithm
 Dosen Pengampu:
 
 **Dr. Ferry Astika Saputra ST, M.Sc**

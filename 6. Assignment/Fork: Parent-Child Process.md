@@ -21,7 +21,7 @@ Disusun Oleh:
 ```
 ./ $fork01
 ```
-![fork1](https://github.com/Naurilputri/SisOpe-2025/blob/main/screenshots_fork/fork01.png)  
+![fork1](https://github.com/Naurilputri/SisOpe-2025/blob/main/screenshots/fork01.png)  
 ```
 using namespace std;
 

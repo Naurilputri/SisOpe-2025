@@ -78,9 +78,7 @@ if(p[j].bt > p[j+1].bt)
 
 ---
 
-## 📈 Gantt Chart (Contoh)
-
-Misalkan input:
+## Gantt Chart 
 
 | Proses | BT |
 |--------|----|
@@ -89,16 +87,12 @@ Misalkan input:
 | P3     | 7  |
 | P4     | 3  |
 
-### Setelah diurutkan berdasarkan BT:
-| P4 | P1 | P3 | P2 |
-|----|----|----|----|
 
 ### Gantt Chart:
 ```yaml
 | P4 | P1 | P3 | P2 |
 0    3    9   16   24
 ```
-
 ---
 
 ## Rata-Rata

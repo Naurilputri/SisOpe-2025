@@ -15,11 +15,11 @@ Disusun Oleh:
 
 # Analisis Logika Kode - SJF (Tanpa Arrival Time) Non-Preemptive
 
-Kode ini mengimplementasikan algoritma **Shortest Job First (SJF)** _Non-Preemptive_ **tanpa mempertimbangkan Arrival Time**, sehingga diasumsikan semua proses datang bersamaan di waktu 0.
+implementasi algoritma **Shortest Job First (SJF)** _Non-Preemptive_ **tanpa mempertimbangkan Arrival Time**, sehingga diasumsikan semua proses datang bersamaan di waktu 0.
 
 ---
 
-## 🧱 Struktur Data
+##  Struktur Data
 
 ```c
 struct proc {
@@ -36,7 +36,7 @@ struct proc {
 
 ---
 
-## 🧩 Fungsi `read()`
+##  Fungsi `read()`
 
 Fungsi untuk membaca burst time dari masing-masing proses:
 - Input dari pengguna
@@ -45,7 +45,7 @@ Fungsi untuk membaca burst time dari masing-masing proses:
 
 ---
 
-## ⚙️ Logika Penjadwalan SJF
+## Logika Penjadwalan SJF
 
 ### 1. Input dan Inisialisasi
 - Program meminta jumlah proses (`n`)

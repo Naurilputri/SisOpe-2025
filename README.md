@@ -1,7 +1,7 @@
 # Laporan Tugas Sistem Operasi
 
 <p align="center">
-  <img src="" width="200"/>
+  <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/logo.jpg.webp" width="500"/>
 </p>
 
 **Nama:** Nauril Putri Hadining Tyas  

@@ -95,9 +95,9 @@ if(p[j].bt > p[j+1].bt)
 ```
 ---
 
-## Rata-Rata
+### Rata-Rata:
 
-- **Average Turnaround Time (TAT)** = Total TAT / n
-- **Average Waiting Time (WT)** = Total WT / n
+- **Average Turnaround Time:** `(3 + 9 + 16 + 24)/4 = 13.00`
+- **Average Waiting Time:** `(0 + 3 + 9 + 16)/4 = 7.00`
 
 ---

@@ -13,6 +13,7 @@ Disusun Oleh:
 
 **POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
 
+
 # Analisis Logika Kode - SJF (Tanpa Arrival Time) Non-Preemptive
 
 implementasi algoritma **Shortest Job First (SJF)** _Non-Preemptive_ **tanpa mempertimbangkan Arrival Time**, sehingga diasumsikan semua proses datang bersamaan di waktu 0.
@@ -68,7 +69,7 @@ if(p[j].bt > p[j+1].bt)
 
 ---
 
-## 📋 Output
+## Output
 
 - Output mencetak tabel:
   - Proses, BT, CT, TAT, WT, dan RT (sama dengan WT karena non-preemptive)
@@ -100,7 +101,7 @@ Misalkan input:
 
 ---
 
-## 📊 Rata-Rata
+## Rata-Rata
 
 - **Average Turnaround Time (TAT)** = Total TAT / n
 - **Average Waiting Time (WT)** = Total WT / n

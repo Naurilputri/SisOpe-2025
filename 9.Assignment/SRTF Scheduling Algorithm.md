@@ -77,19 +77,7 @@ if(p[i].at <= time && p[i].rt < p[s].rt && p[i].rt > 0)
   - `tat` dan `wt` dihitung
   - Total TAT dan WT diakumulasi
 
-### 5. Rata-Rata
-- Setelah semua proses selesai, dihitung:
-  - `avg_tat = total_tat / n`
-  - `avg_wt = total_wt / n`
-
 ---
-#  Gantt Chart - SRTF Scheduling
-
-## Gantt Chart:
-```yaml
-| P1 | P2 | P3 | P2 | P1 |
-0    2    4    5    9   16
-```
 
 ##  Proses Eksekusi:
 
@@ -98,6 +86,12 @@ if(p[i].at <= time && p[i].rt < p[s].rt && p[i].rt > 0)
 | P1     | 0                 | 7               | 16                    | 16                     | 9                  |
 | P2     | 2                 | 4               | 9                     | 7                      | 3                  |
 | P3     | 4                 | 1               | 5                     | 1                      | 0                  |
+
+## Gantt Chart:
+```yaml
+| P1 | P2 | P3 | P2 | P1 |
+0    2    4    5    9   16
+```
 
 ##  Rata-Rata:
 - **Average Turnaround Time:**  = (16 + 7 + 1) / 3 = **8.00**

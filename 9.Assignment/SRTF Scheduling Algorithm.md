@@ -16,11 +16,11 @@ Disusun Oleh:
 
 # Analisis Logika Code - SRTF (Shortest Remaining Time First)
 
-Kode ini mengimplementasikan algoritma penjadwalan CPU **Shortest Remaining Time First (SRTF)**, yaitu versi _preemptive_ dari Shortest Job First (SJF). Berikut ini adalah analisis logika secara sistematis:
+implementasi algoritma penjadwalan CPU **Shortest Remaining Time First (SRTF)**, yaitu versi _preemptive_ dari Shortest Job First (SJF). Berikut ini adalah analisis logika secara sistematis:
 
 ---
 
-## 🧱 Struktur Data
+##  Struktur Data
 
 ```c
 struct proc {
@@ -39,7 +39,7 @@ struct proc {
 
 ---
 
-## 🧩 Fungsi `read()`
+##  Fungsi `read()`
 
 Fungsi ini membaca data proses dari input:
 - Mengisi `no`, `at`, `bt`
@@ -47,7 +47,7 @@ Fungsi ini membaca data proses dari input:
 
 ---
 
-## ⚙️ Proses Penjadwalan
+##  Proses Penjadwalan
 
 ### 1. Input dan Inisialisasi
 - Penggunadiminta memasukkan jumlah proses.
@@ -83,7 +83,7 @@ if(p[i].at <= time && p[i].rt < p[s].rt && p[i].rt > 0)
   - `avg_wt = total_wt / n`
 
 ---
-# ⏱️ Gantt Chart - SRTF Scheduling
+#  Gantt Chart - SRTF Scheduling
 
 ## Gantt Chart:
 ```yaml
@@ -91,7 +91,7 @@ if(p[i].at <= time && p[i].rt < p[s].rt && p[i].rt > 0)
 0    2    4    5    9   16
 ```
 
-## 📊 Proses Eksekusi:
+##  Proses Eksekusi:
 
 | Proses | Arrival Time (AT) | Burst Time (BT) | Completion Time (CT) | Turnaround Time (TAT) | Waiting Time (WT) |
 |--------|-------------------|-----------------|-----------------------|------------------------|--------------------|
@@ -99,7 +99,7 @@ if(p[i].at <= time && p[i].rt < p[s].rt && p[i].rt > 0)
 | P2     | 2                 | 4               | 9                     | 7                      | 3                  |
 | P3     | 4                 | 1               | 5                     | 1                      | 0                  |
 
-## 📈 Rata-Rata:
+##  Rata-Rata:
 - **Average Turnaround Time:**  = (16 + 7 + 1) / 3 = **8.00**
 - **Average Waiting Time:** = (9 + 3 + 0) / 3 = **4.00**
 

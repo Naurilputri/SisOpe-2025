@@ -13,13 +13,13 @@ Disusun Oleh:
 
 **POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
 
-# 🧠 Analisis Logika Code - SJF Scheduling (Non-Preemptive)
+# Analisis Logika Code - SJF Scheduling (Non-Preemptive)
 
-Kode ini mengimplementasikan algoritma **Shortest Job First (SJF) Non-Preemptive**, di mana proses dengan burst time terkecil dipilih berikutnya dari proses yang sudah tiba.
+implementasi algoritma **Shortest Job First (SJF) Non-Preemptive**, di mana proses dengan burst time terkecil dipilih berikutnya dari proses yang sudah tiba.
 
 ---
 
-## 📦 Struktur Data
+##  Struktur Data
 
 ```c
 struct proc {
@@ -38,7 +38,7 @@ struct proc {
 
 ---
 
-## 🔁 Alur Program
+##  Alur Program
 
 ### 1. Input
 - Pengguna memasukkan jumlah proses dan nilai AT serta BT untuk masing-masing proses.
@@ -75,7 +75,7 @@ p[i].wt = p[i].tat - p[i].bt;
 
 ---
 
-## 🧮 Gantt Chart
+##  Gantt Chart
 
 ### Contoh Asumsi Input:
 | Proses | AT | BT |
@@ -93,7 +93,7 @@ p[i].wt = p[i].tat - p[i].bt;
 
 ---
 
-## 📊 Tabel Hasil Eksekusi:
+##  Tabel Hasil Eksekusi:
 
 | Proses | AT | BT | CT | TAT | WT | RT |
 |--------|----|----|----|-----|----|----|
@@ -104,7 +104,7 @@ p[i].wt = p[i].tat - p[i].bt;
 
 ---
 
-## 📈 Rata-Rata:
+##  Rata-Rata:
 - **Average Turnaround Time**: `(8 + 6 + 9 + 14)/4 = 9.25`
 - **Average Waiting Time**: `(0 + 5 + 7 + 10)/4 = 5.5`
 

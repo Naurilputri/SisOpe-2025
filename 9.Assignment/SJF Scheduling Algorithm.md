@@ -85,12 +85,6 @@ p[i].wt = p[i].tat - p[i].bt;
 | P3     | 2  | 2  |
 | P4     | 3  | 1  |
 
-### Gantt Chart:
-```yaml
-| P1 | P4 | P3 | P2 |
-0    8    9   11   15
-```
-
 ---
 
 ##  Tabel Hasil Eksekusi:
@@ -103,6 +97,12 @@ p[i].wt = p[i].tat - p[i].bt;
 | P2     | 1  | 4  | 15 | 14  | 10 | 10 |
 
 ---
+
+### Gantt Chart:
+```yaml
+| P1 | P4 | P3 | P2 |
+0    8    9   11   15
+```
 
 ##  Rata-Rata:
 - **Average Turnaround Time**: `(8 + 6 + 9 + 14)/4 = 9.25`

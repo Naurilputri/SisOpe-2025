@@ -1,22 +1,27 @@
-# LAPORAN TUGAS
-## MATAKULIAH SISTEM OPERASI
-### Scheduling Algorithm
-Dosen Pengampu:
+<div align="center">
+  
+# Laporan Tugas Sistem Operasi
+</div>
+<p align="center">
+  <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/logo.jpg.webp" width="500"/>
+</p>
 
-**Dr. Ferry Astika Saputra ST, M.Sc**
+**Dosen Pengampu:** Dr. Ferry Astika Saputra ST, M.Sc  
+**NIP:** 197708232001121002  
 
-Disusun Oleh:
+**Nama:** Nauril Putri Hadining Tyas  
+**NRP:** 3124521012  
 
-**Nauril Putri Hadining Tyas (3124521012)**
+**Program Studi:** D3 Teknik Informatika PENS PSDKU LA  
+**Mata Kuliah:** Sistem Operasi  
+**Tahun Ajaran:** 2025  
 
-**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
-
-**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
+---
 
 
 # Analisis Logika Kode - SJF (Tanpa Arrival Time) Non-Preemptive
 
-implementasi algoritma **Shortest Job First (SJF)** _Non-Preemptive_ **tanpa mempertimbangkan Arrival Time**, sehingga diasumsikan semua proses datang bersamaan di waktu 0.
+https://github.com/ferryastika/Scheduling-Algorithms/blob/master/SJF%20Scheduling%20Algorithm%20Without%20Arrival%20Time.c
 
 ---
 

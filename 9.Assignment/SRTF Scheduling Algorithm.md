@@ -20,7 +20,10 @@
 
 # Analisis Logika Code - SRTF (Shortest Remaining Time First)
 
+kode program : [SJF Scheduling Algorithm Without Arrival Time](https://github.com/ferryastika/Scheduling-Algorithms/blob/master/SRTF%20Scheduling%20Algorithm.c)
 
+Output: 
+<img src="">
 
 ##  Proses Eksekusi:
 

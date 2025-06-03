@@ -22,9 +22,8 @@
 
 kode program : [SJF Scheduling Algorithm Without Arrival Time](https://github.com/ferryastika/Scheduling-Algorithms/blob/master/SJF%20Scheduling%20Algorithm%20Without%20Arrival%20Time.c)
 
----
-
-Output:
+Output: 
+<img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/sjf-1.png">
 
 ## proses
 

@@ -25,26 +25,13 @@ kode program : [SJF Scheduling Algorithm Without Arrival Time](https://github.co
 Output: 
 <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/sjf-1.png">
 
-## proses
-
-| Proses | BT |
-|--------|----|
-| P1     | 6  |
-| P2     | 8  |
-| P3     | 7  |
-| P4     | 3  |
 
 
-### Gantt Chart:
-```yaml
-| P4 | P1 | P3 | P2 |
-0    3    9   16   24
-```
----
+analisis dari contoh kasus: 
+Pada kasus ini, seluruh proses (P1–P5) dianggap telah siap dijalankan sejak awal waktu (t=0), sehingga sistem tidak perlu mempertimbangkan arrival time. Algoritma SJF akan memilih proses dengan burst time terpendek yang tersedia saat itu.
 
-### Rata-Rata:
+Namun, karena yang digunakan adalah varian non-preemptive, begitu suatu proses telah dipilih dan dijalankan, ia akan terus berjalan hingga selesai, tanpa bisa diganggu oleh proses lain, meskipun ada proses baru dengan burst time yang lebih pendek.
 
-- **Average Turnaround Time:** `(3 + 9 + 16 + 24)/4 = 13.00`
-- **Average Waiting Time:** `(0 + 3 + 9 + 16)/4 = 7.00`
+Dalam kasus ini, pemilihan proses didasarkan pada urutan prioritas (1 adalah prioritas tertinggi). Bila terdapat dua proses dengan prioritas yang sama, maka urutan kemunculan dalam daftar yang akan dijadikan pembanding, menyerupai mekanisme FCFS (First-Come, First-Served).
 
 ---

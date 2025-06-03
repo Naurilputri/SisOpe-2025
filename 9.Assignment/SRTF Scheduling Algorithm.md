@@ -1,83 +1,26 @@
-# LAPORAN TUGAS
-## MATAKULIAH SISTEM OPERASI
-### Scheduling Algorithm
+<div align="center">
+  
+# Laporan Tugas Sistem Operasi
+</div>
+<p align="center">
+  <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/logo.jpg" width="500"/>
+</p>
 
-Dosen Pengampu:
+**Dosen Pengampu:** Dr. Ferry Astika Saputra ST, M.Sc  
+**NIP:** 197708232001121002  
 
-**Dr. Ferry Astika Saputra ST, M.Sc**
+**Nama:** Nauril Putri Hadining Tyas  
+**NRP:** 3124521012  
 
-Disusun Oleh:
+**Program Studi:** D3 Teknik Informatika PSDKU LA  
+**Mata Kuliah:** Sistem Operasi  
+**Tahun Ajaran:** 2025  
 
-**Nauril Putri Hadining Tyas (3124521012)**
-
-**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
-
-**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
+---
 
 # Analisis Logika Code - SRTF (Shortest Remaining Time First)
 
-implementasi algoritma penjadwalan CPU **Shortest Remaining Time First (SRTF)**, yaitu versi _preemptive_ dari Shortest Job First (SJF). Berikut ini adalah analisis logika secara sistematis:
 
----
-
-##  Struktur Data
-
-```c
-struct proc {
-    int no, at, bt, rt, ct, tat, wt;
-};
-```
-
-### Keterangan:
-- `no`: Nomor proses
-- `at`: Arrival Time (waktu kedatangan)
-- `bt`: Burst Time (lama eksekusi)
-- `rt`: Remaining Time (sisa eksekusi)
-- `ct`: Completion Time (waktu selesai)
-- `tat`: Turnaround Time = `ct - at`
-- `wt`: Waiting Time = `tat - bt`
-
----
-
-##  Fungsi `read()`
-
-Fungsi ini membaca data proses dari input:
-- Mengisi `no`, `at`, `bt`
-- Menyalin `bt` ke `rt` (remaining time)
-
----
-
-##  Proses Penjadwalan
-
-### 1. Input dan Inisialisasi
-- Penggunadiminta memasukkan jumlah proses.
-- Data proses dibaca satu per satu.
-- Proses diurutkan berdasarkan arrival time (`at`) menggunakan bubble sort.
-
-### 2. Simulasi Waktu
-```c
-for(time=0; remain != n; time++)
-```
-- Variabel `time` disimulasikan satuan per satuan.
-- Loop berlanjut sampai semua proses (`remain == n`).
-
-### 3. Pemilihan Proses
-```c
-if(p[i].at <= time && p[i].rt < p[s].rt && p[i].rt > 0)
-```
-- Memilih proses `i` yang:
-  - Sudah datang
-  - Belum selesai (`rt > 0`)
-  - Memiliki `remaining time` terkecil
-
-### 4. Eksekusi Proses
-- `p[s].rt--` mengurangi sisa waktu proses.
-- Jika `rt == 0`, proses dianggap selesai:
-  - `ct` dicatat
-  - `tat` dan `wt` dihitung
-  - Total TAT dan WT diakumulasi
-
----
 
 ##  Proses Eksekusi:
 

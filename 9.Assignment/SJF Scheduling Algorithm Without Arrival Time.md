@@ -19,71 +19,15 @@
 ---
 
 
-# Analisis Logika Kode - SJF (Tanpa Arrival Time) Non-Preemptive
+# 1. Analisis Logika Kode - SJF (Tanpa Arrival Time) Non-Preemptive
 
-https://github.com/ferryastika/Scheduling-Algorithms/blob/master/SJF%20Scheduling%20Algorithm%20Without%20Arrival%20Time.c
-
----
-
-##  Struktur Data
-
-```c
-struct proc {
-    int no, bt, ct, tat, wt;
-};
-```
-
-### Keterangan:
-- `no`: Nomor proses
-- `bt`: Burst Time (lama eksekusi)
-- `ct`: Completion Time (waktu selesai)
-- `tat`: Turnaround Time = `ct` (karena `at` = 0)
-- `wt`: Waiting Time = `tat - bt`
+kode program : [SJF Scheduling Algorithm Without Arrival Time](https://github.com/ferryastika/Scheduling-Algorithms/blob/master/SJF%20Scheduling%20Algorithm%20Without%20Arrival%20Time.c)
 
 ---
 
-##  Fungsi `read()`
+Output:
 
-Fungsi untuk membaca burst time dari masing-masing proses:
-- Input dari pengguna
-- `no` diisi sesuai urutan input
-- Return struct `proc`
-
----
-
-## Logika Penjadwalan SJF
-
-### 1. Input dan Inisialisasi
-- Program meminta jumlah proses (`n`)
-- Input burst time setiap proses
-- Semua proses diasumsikan tiba di waktu 0
-
-### 2. Sortir Proses Berdasarkan Burst Time
-```c
-if(p[j].bt > p[j+1].bt)
-```
-- Menggunakan bubble sort
-- Tujuan: Proses dengan burst time terpendek dikerjakan terlebih dahulu
-
-### 3. Eksekusi dan Perhitungan
-- Waktu berjalan (`ct`) diakumulasi dengan burst time setiap proses
-- Karena semua proses tiba di waktu 0:
-  - `tat = ct`
-  - `wt = tat - bt`
-- Nilai `tat` dan `wt` dikumpulkan untuk perhitungan rata-rata
-
----
-
-## Output
-
-- Output mencetak tabel:
-  - Proses, BT, CT, TAT, WT, dan RT (sama dengan WT karena non-preemptive)
-
-- Rata-rata TAT dan WT dihitung
-
----
-
-## Gantt Chart 
+## proses
 
 | Proses | BT |
 |--------|----|

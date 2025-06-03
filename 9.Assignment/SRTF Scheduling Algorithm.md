@@ -25,23 +25,38 @@ kode program : [SJF Scheduling Algorithm Without Arrival Time](https://github.co
 Output: 
 <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/srtf.png">
 
-##  Proses Eksekusi:
+contoh kasus dari practice exercise:
+<img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/sjf3contoh.png">
 
-| Proses | Arrival Time (AT) | Burst Time (BT) | Completion Time (CT) | Turnaround Time (TAT) | Waiting Time (WT) |
-|--------|-------------------|-----------------|-----------------------|------------------------|--------------------|
-| P1     | 0                 | 7               | 16                    | 16                     | 9                  |
-| P2     | 2                 | 4               | 9                     | 7                      | 3                  |
-| P3     | 4                 | 1               | 5                     | 1                      | 0                  |
+**analisis dari:**
 
-## Gantt Chart:
-```yaml
-| P1 | P2 | P3 | P2 | P1 |
-0    2    4    5    9   16
-```
+Dalam algoritma SRTF, proses yang memiliki waktu eksekusi tersisa paling sedikit akan selalu diprioritaskan. Karena ini adalah varian preemptive dari SJF, CPU dapat menghentikan proses yang sedang berjalan jika ada proses baru yang datang dengan waktu eksekusi lebih pendek.
 
-##  Rata-Rata:
-- **Average Turnaround Time:**  = (16 + 7 + 1) / 3 = **8.00**
-- **Average Waiting Time:** = (9 + 3 + 0) / 3 = **4.00**
+Di awal waktu (t = 0), hanya P1 yang tersedia, jadi CPU memulai eksekusi P1. Namun, saat P2 datang di t = 1 dengan burst time 4 (lebih pendek dari sisa P1 = 7), P1 akan langsung dihentikan dan digantikan oleh P2.
 
+Selama P2 berjalan, proses P3 dan P4 masuk ke sistem. Tapi karena sisa waktu P2 selalu lebih kecil dari burst time proses baru tersebut, P2 tetap berjalan hingga selesai di t = 5.
 
+Setelah P2 selesai, scheduler memilih proses dengan waktu tersisa paling kecil dari antrean:
 
+P1: sisa 7
+
+P3: 9
+
+P4: 5
+Karena P4 memiliki waktu tersisa paling sedikit, maka dijalankan dari t = 5 hingga t = 10.
+
+Lalu P1 kembali dilanjutkan (sisa 7) dan dijalankan dari t = 10 hingga t = 18. Terakhir, P3 dieksekusi tanpa gangguan dari t = 18 hingga t = 27.
+
+Urutan Eksekusi (dalam Gantt Chart kira-kira):
+plaintext
+Copy
+Edit
+| P1 | P2       | P4       | P1       | P3       |
+ 0   1         5         10        18        27
+
+**Ringkasan:**
+Proses selalu bisa digantikan jika ada proses lain dengan waktu lebih pendek.
+
+Ini membuat algoritma sangat efisien dalam menurunkan average waiting time, terutama bila banyak proses pendek datang setelah proses panjang sudah dimulai.
+
+Namun, proses panjang bisa terus tertunda bila proses-proses pendek terus berdatangan (disebut starvation).

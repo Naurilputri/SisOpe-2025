@@ -47,12 +47,20 @@ Karena P4 memiliki waktu tersisa paling sedikit, maka dijalankan dari t = 5 hing
 
 Lalu P1 kembali dilanjutkan (sisa 7) dan dijalankan dari t = 10 hingga t = 18. Terakhir, P3 dieksekusi tanpa gangguan dari t = 18 hingga t = 27.
 
-Urutan Eksekusi (dalam Gantt Chart kira-kira):
-plaintext
-Copy
-Edit
+Urutan Eksekusi (dalam Gantt Chart ):
+
+```
 | P1 | P2       | P4       | P1       | P3       |
  0   1         5         10        18        27
+```
+
+Keterangan:
+- P1 mulai di waktu 0 dan dihentikan di waktu 1
+- P2 masuk dan berjalan hingga selesai di waktu 5
+- P4 kemudian dijalankan dari 5 hingga 10
+- P1 kembali berjalan dari 10 hingga 18
+- P3 berjalan terakhir dari 18 hingga 27
+
 
 **Ringkasan:**
 Proses selalu bisa digantikan jika ada proses lain dengan waktu lebih pendek.

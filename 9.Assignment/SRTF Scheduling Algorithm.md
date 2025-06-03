@@ -23,7 +23,7 @@
 kode program : [SJF Scheduling Algorithm Without Arrival Time](https://github.com/ferryastika/Scheduling-Algorithms/blob/master/SRTF%20Scheduling%20Algorithm.c)
 
 Output: 
-<img src="">
+<img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/srtf.png">
 
 ##  Proses Eksekusi:
 

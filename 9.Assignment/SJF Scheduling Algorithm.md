@@ -23,7 +23,7 @@
 kode program : [SJF Scheduling Algorithm](https://github.com/ferryastika/Scheduling-Algorithms/blob/master/SJF%20Scheduling%20Algorithm.c)
 
 Output: 
-<img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/sjf-1.png">
+<img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/sjf-2.png">
 
 
 ##  Gantt Chart

@@ -1,83 +1,29 @@
-# LAPORAN TUGAS
-## MATAKULIAH SISTEM OPERASI
-### Scheduling Algorithm
-Dosen Pengampu:
+<div align="center">
+  
+# Laporan Tugas Sistem Operasi
+</div>
+<p align="center">
+  <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/logo.jpg" width="500"/>
+</p>
 
-**Dr. Ferry Astika Saputra ST, M.Sc**
+**Dosen Pengampu:** Dr. Ferry Astika Saputra ST, M.Sc  
+**NIP:** 197708232001121002  
 
-Disusun Oleh:
+**Nama:** Nauril Putri Hadining Tyas  
+**NRP:** 3124521012  
 
-**Nauril Putri Hadining Tyas (3124521012)**
+**Program Studi:** D3 Teknik Informatika PSDKU LA  
+**Mata Kuliah:** Sistem Operasi  
+**Tahun Ajaran:** 2025  
 
-**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
-
-**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
+---
 
 # Analisis Logika Code - SJF Scheduling (Non-Preemptive)
 
-implementasi algoritma **Shortest Job First (SJF) Non-Preemptive**, di mana proses dengan burst time terkecil dipilih berikutnya dari proses yang sudah tiba.
-
----
-
-##  Struktur Data
-
-```c
-struct proc {
-    int no, at, bt, it, ct, tat, wt;
-};
-```
-
-**Penjelasan:**
-- `no`: Nomor proses
-- `at`: Arrival Time
-- `bt`: Burst Time
-- `it`: Start Time (Idle/Initial Time)
-- `ct`: Completion Time
-- `tat`: Turnaround Time (`ct - at`)
-- `wt`: Waiting Time (`tat - bt`)
-
----
-
-##  Alur Program
-
-### 1. Input
-- Pengguna memasukkan jumlah proses dan nilai AT serta BT untuk masing-masing proses.
-
-### 2. Sorting Proses Berdasarkan Arrival Time
-```c
-for(int i=0;i<n-1;i++)
-    for(j=0;j<n-i-1;j++)    
-        if(p[j].at>p[j+1].at)
-```
-- Mengurutkan proses berdasarkan waktu kedatangan.
-
-### 3. Memilih Proses Pertama
-```c
-for(j=1;j<n && p[j].at==p[0].at;j++)
-    if(p[j].bt<p[min].bt)
-```
-- Jika ada beberapa proses dengan arrival time yang sama, proses dengan burst time terkecil dijalankan lebih dulu.
-
-### 4. Penjadwalan Proses Berikutnya
-```c
-for(j=i+1,min=i;j<n && p[j].at <= p[i-1].ct;j++)
-    if(p[j].bt < p[min].bt)
-```
-- Dari proses yang sudah datang (`at <= waktu selesai proses sebelumnya`), pilih proses dengan BT terkecil.
-
-### 5. Perhitungan Waktu
-```c
-p[i].it = max(p[i-1].ct, p[i].at);
-p[i].ct = p[i].it + p[i].bt;
-p[i].tat = p[i].ct - p[i].at;
-p[i].wt = p[i].tat - p[i].bt;
-```
-
----
 
 ##  Gantt Chart
 
-### Contoh Asumsi Input:
+### proses
 | Proses | AT | BT |
 |--------|----|----|
 | P1     | 0  | 8  |

@@ -1,20 +1,22 @@
+<div align="center">
+  
+# Laporan Tugas Sistem Operasi
+</div>
+<p align="center">
+  <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/logo.jpg" width="500"/>
+</p>
 
-# LAPORAN TUGAS
-## MATAKULIAH SISTEM OPERASI
-### SINGLE THREAD & MULTITHREAD
+**Dosen Pengampu:** Dr. Ferry Astika Saputra ST, M.Sc  
+**NIP:** 197708232001121002  
 
+**Nama:** Nauril Putri Hadining Tyas  
+**NRP:** 3124521012  
 
-Dosen Pengampu:
-**Dr. Ferry Astika Saputra ST, M.Sc**
+**Program Studi:** D3 Teknik Informatika PSDKU LA  
+**Mata Kuliah:** Sistem Operasi  
+**Tahun Ajaran:** 2025  
 
-Disusun Oleh:
-**Nauril Putri Hadining Tyas (3124521012)**
-
-
-**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
-
-**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
-
+---
 
 ## Single Thread
 

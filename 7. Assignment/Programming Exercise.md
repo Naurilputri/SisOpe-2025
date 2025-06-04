@@ -1,19 +1,22 @@
-# LAPORAN TUGAS
-## MATAKULIAH SISTEM OPERASI
-### SISTEM FILE DAN THREAD
+<div align="center">
+  
+# Laporan Tugas Sistem Operasi
+</div>
+<p align="center">
+  <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/logo.jpg" width="500"/>
+</p>
 
-Dosen Pengampu:
+**Dosen Pengampu:** Dr. Ferry Astika Saputra ST, M.Sc  
+**NIP:** 197708232001121002  
 
-**Dr. Ferry Astika Saputra ST, M.Sc**
+**Nama:** Nauril Putri Hadining Tyas  
+**NRP:** 3124521012  
 
-Disusun Oleh:
+**Program Studi:** D3 Teknik Informatika PSDKU LA  
+**Mata Kuliah:** Sistem Operasi  
+**Tahun Ajaran:** 2025  
 
-**Nauril Putri Hadining Tyas (3124521012)**
-
-**PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN**
-
-**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
-
+---
 
 ## a. Penerapan Thread pada SumTask.java
 

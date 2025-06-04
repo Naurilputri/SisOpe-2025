@@ -21,10 +21,10 @@
   fork() adalah sebuah system call atau fungsi khusus yang digunakan dalam sistem operasi mirip Unix (seperti Linux dan macOS) untuk membuat proses baru. Proses yang membuat proses baru ini disebut proses induk (parent process), dan proses yang baru dibuat disebut proses anak (child process). Proses anak ini pada dasarnya adalah salinan dari proses induk, dengan ruang alamat dan status eksekusi yang hampir identik.
 
   Setelah fork() dipanggil, baik proses induk maupun proses anak akan melanjutkan eksekusi dari titik yang sama dalam kode program. Proses induk dapat menggunakan nilai kembalian dari fork() untuk membedakan antara dirinya dan proses anak. Pada proses anak, fork() mengembalikan nilai 0, sedangkan pada proses induk, fork() mengembalikan Process ID (PID) dari proses anak yang baru dibuat. Jika terjadi kesalahan saat membuat proses anak, fork() akan mengembalikan nilai negatif.  
-```
+
 ./ $fork01
-```
-![fork1](https://github.com/Naurilputri/SisOpe-2025/blob/main/screenshots/fork01.png)  
+
+![fork1] (https://github.com/Naurilputri/SisOp-2025/blob/main/6.%20Assignment/screenshots/fork01.png)  
 ```
 using namespace std;
 

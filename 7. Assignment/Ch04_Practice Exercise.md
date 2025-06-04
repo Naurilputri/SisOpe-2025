@@ -1,16 +1,20 @@
-# LAPORAN TUGAS
-## MATAKULIAH SISTEM OPERASI  
-### PRACTICE EXERCISE CH4
+<div align="center">
+  
+# Laporan Tugas Sistem Operasi
+</div>
+<p align="center">
+  <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/logo.jpg" width="500"/>
+</p>
 
-**Dosen Pengampu:**  
-Dr Ferry Astika Saputra ST, M.Sc
+**Dosen Pengampu:** Dr. Ferry Astika Saputra ST, M.Sc  
+**NIP:** 197708232001121002  
 
-**Disusun Oleh:**  
-Nauril Putri Hadining Tyas (3124521012)
+**Nama:** Nauril Putri Hadining Tyas  
+**NRP:** 3124521012  
 
-**Program Studi:** D3 Teknik Informatika PSDKU Lamongan  
-**Departemen:** Teknik Informatika dan Komputer, Politeknik Elektronika Negeri Surabaya  
-**Tahun Pelajaran:** 2025
+**Program Studi:** D3 Teknik Informatika PSDKU LA  
+**Mata Kuliah:** Sistem Operasi  
+**Tahun Ajaran:** 2025  
 
 ---
 

@@ -30,27 +30,45 @@ contoh kasus dipractice exercise:
 <img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/sjf2contoh.png">
 
 **analisis dari:**
+# Penyelesaian SJF (Shortest Job First) Non-Preemptive Dengan Arrival Time
 
-Pada ilustrasi ini, proses-proses datang di waktu yang berbeda-beda, sehingga pemilihan proses oleh scheduler tidak hanya memperhatikan burst time, tapi juga arrival time.
+## Input
+Jumlah proses: **3**
 
-Ketika sistem mulai berjalan di t = 0, hanya P1 yang sudah masuk ke ready queue. Meskipun P1 memiliki burst time yang cukup lama (8 unit waktu), karena belum ada proses lain yang tersedia, CPU langsung mengeksekusi P1. Karena ini adalah SJF non-preemptive, P1 akan terus berjalan sampai selesai di t = 8, meskipun proses lain masuk di tengah-tengah eksekusinya.
+### Tabel Proses:
+| Proses | Arrival Time (AT) | Burst Time (BT) |
+|--------|-------------------|-----------------|
+| P1     | 6                 | 4               |
+| P2     | 2                 | 3               |
+| P3     | 4                 | 2               |
 
-Setelah P1 selesai, dua proses lain (P2 dan P3) sudah tersedia:
+---
 
-P2 datang di t = 0.4 (BT = 4)
+## Langkah Penyelesaian
+SJF Non-Preemptive dijalankan dengan memperhatikan waktu kedatangan:
 
-P3 datang di t = 1.0 (BT = 1)
+1. **Waktu = 0 - 1** → Belum ada proses datang.
+2. **Waktu = 2** → P2 datang → *dipilih* karena hanya satu yang tersedia.
+3. **Waktu = 5** → P3 sudah datang → *dipilih* karena BT lebih kecil dari P1.
+4. **Waktu = 7** → P1 masuk dan dieksekusi terakhir.
 
-Pada titik ini, scheduler akan memilih proses dengan burst time terpendek. Karena P3 hanya membutuhkan 1 unit waktu, maka P3 dijalankan lebih dahulu. Setelah P3 selesai di t = 9, proses yang tersisa hanya P2, yang kemudian dieksekusi dari t = 9 hingga t = 13.
+---
 
-Urutan Eksekusi:
-P1: t = 0 → t = 8
+## Tabel Perhitungan
 
-P3: t = 8 → t = 9
+| Proses | AT | BT | CT  | TAT | WT  |
+|--------|----|----|-----|-----|-----|
+| P2     | 2  | 3  | 5   | 3   | 0   |
+| P3     | 4  | 2  | 7   | 3   | 1   |
+| P1     | 6  | 4  | 11  | 5   | 1   |
 
-P2: t = 9 → t = 13
+Keterangan:
+- **CT (Completion Time)**: Waktu proses selesai dieksekusi
+- **TAT (Turnaround Time)** = CT - AT
+- **WT (Waiting Time)** = TAT - BT
 
-**Ringkasan:**
-Penjadwalan mengutamakan proses dengan burst time terpendek yang sudah tersedia saat CPU siap.
-Karena sifatnya non-preemptive, proses yang sedang berjalan tidak akan dihentikan meskipun ada proses baru yang lebih singkat.
-Hal ini menyebabkan P1 tetap berjalan penuh, walaupun P3 seharusnya bisa selesai jauh lebih cepat jika preemption diperbolehkan.
+---
+
+## Gantt Chart 
+
+

@@ -37,18 +37,53 @@ Namun, karena yang digunakan adalah varian non-preemptive, begitu suatu proses t
 
 Dalam kasus ini, pemilihan proses didasarkan pada urutan prioritas (1 adalah prioritas tertinggi). Bila terdapat dua proses dengan prioritas yang sama, maka urutan kemunculan dalam daftar yang akan dijadikan pembanding, menyerupai mekanisme FCFS (First-Come, First-Served).
 
-**Urutan Eksekusi:**
+# Penyelesaian SJF (Shortest Job First) Non-Preemptive Tanpa Arrival Time
 
-P2: Memiliki prioritas tertinggi (1), dan burst time 1. Jadi, dieksekusi pertama (t=0–1).
+## Input
+Jumlah proses: **4**
 
-P1 dan P4 memiliki prioritas sama (2). Karena P1 muncul lebih awal, ia dijalankan dari t=1–3.
+### Burst Time:
+- P1 = 4
+- P2 = 2
+- P3 = 6
+- P4 = 5
 
-Setelah itu, P4 dijalankan dari t=3–7.
+---
 
-P5 memiliki prioritas 3, dijalankan dari t=7–12.
+## Langkah Penyelesaian
+Karena tidak ada Arrival Time, maka semua proses dianggap datang pada waktu 0. Urutkan proses berdasarkan Burst Time (dari yang terkecil ke terbesar):
 
-Terakhir, P3 (prioritas 4) dijalankan dari t=12–20.
+1. P2 (BT=2)
+2. P1 (BT=4)
+3. P4 (BT=5)
+4. P3 (BT=6)
 
-Ringkasan:
-Algoritma ini bekerja cukup efisien ketika semua proses datang bersamaan. Dengan mengutamakan burst time dan menghindari preemption, proses dapat dijalankan secara berurutan tanpa gangguan, dan proses dengan waktu eksekusi lebih pendek akan menyelesaikan tugasnya lebih cepat.
+---
+
+## Tabel Perhitungan
+
+| Proses | BT | CT  | TAT | WT  |
+|--------|----|-----|-----|-----|
+| P2     | 2  | 2   | 2   | 0   |
+| P1     | 4  | 6   | 6   | 2   |
+| P4     | 5  | 11  | 11  | 6   |
+| P3     | 6  | 17  | 17  | 11  |
+
+Keterangan:
+- **CT (Completion Time)**: Waktu proses selesai dieksekusi
+- **TAT (Turnaround Time)** = CT (Arrival Time dianggap 0)
+- **WT (Waiting Time)** = TAT - BT
+
+---
+
+## Gantt Chart
+
+![Gantt Chart SJF](gantt_chart_sjf.png)
+
+---
+
+## Rata-Rata Waktu
+- **Average Turnaround Time** = (2 + 6 + 11 + 17) / 4 = **9.00**
+- **Average Waiting Time** = (0 + 2 + 6 + 11) / 4 = **4.75**
+
 ---

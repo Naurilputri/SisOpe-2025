@@ -34,26 +34,3 @@ Berikut adalah daftar tugas yang telah diselesaikan dalam mata kuliah Sistem Ope
 
 ---
 
-##  Deskripsi Singkat
-
-Repositori ini berisi kumpulan tugas yang dikerjakan selama perkuliahan Sistem Operasi. Setiap tugas mencakup berbagai topik penting dalam Sistem Operasi, seperti:
-
-- Representasi dan konversi sistem bilangan
-- Konsep dasar sistem operasi
-- Pembuatan flowchart untuk proses sistem operasi
-- Ringkasan materi dari buku referensi
-- Analisis performa menggunakan FLOPS dan IOPS
-- Studi kasus penggunaan fungsi `fork()` dalam pemrograman
-- Penjadwalan CPU dan analisis algoritma SJF serta RTF
-
----
-
-##  Kontak
-
-Jika Anda memiliki pertanyaan atau masukan, silakan hubungi saya melalui:
-
-- 📧 Email: 
-- 🔗 LinkedIn: 
-
----
-

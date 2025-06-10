@@ -78,8 +78,8 @@ Keterangan:
 
 ## Gantt Chart
 
-![Gantt Chart SJF](gantt_chart_sjf.png)
-
+![Gantt Chart SJF]()
+<img src="https://github.com/Naurilputri/SisOp-2025/blob/main/img/logo.jpg" width="500"/>
 ---
 
 ## Rata-Rata Waktu
